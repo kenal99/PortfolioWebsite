@@ -50,7 +50,7 @@ const Contact = () => {
       px={{ md: "5" }}
     >
       <Text mt={10} fontSize="3xl" fontFamily="heading" fontWeight="bold">
-        About Me
+        Contact Me
       </Text>
       <Divider mt={5} width={200} orientation="horizontal" />
       <Box
