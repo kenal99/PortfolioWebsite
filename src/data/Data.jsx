@@ -120,7 +120,6 @@ export const Project_data = [
     description: [
       "This app displays meaning and examples of entered text",
       "Used meanings API to fetch all the meanings",
-      "This web application is converted to PWA(Progressive Web App)",
     ],
     website: "https://react-word-dictionary.herokuapp.com/",
   },
