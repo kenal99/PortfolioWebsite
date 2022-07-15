@@ -41,7 +41,19 @@ const Work = () => {
               </Text>
               <UnorderedList>
                 {data.description.map((desp) => {
-                  return <ListItem>{desp}</ListItem>;
+                  return (
+                    <>
+                      <Text fontSize="bold" my={1}>
+                        <b>{desp.slice(0, 1)}</b>
+                      </Text>
+
+                      <UnorderedList>
+                        {desp.slice(1, desp.length + 1).map((data) => {
+                          return <ListItem>{data}</ListItem>;
+                        })}
+                      </UnorderedList>
+                    </>
+                  );
                 })}
               </UnorderedList>
             </Box>
