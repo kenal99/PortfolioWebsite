@@ -50,7 +50,7 @@ const Projects = () => {
                 ) : (
                   <ListItem>
                     <Text fontWeight="medium" fontSize="md" my={1}>
-                      <b>Website link: </b>
+                      <b>GitHub: </b>
                       <a href={data.website}>{data.website}</a>
                     </Text>
                   </ListItem>
