@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/PortfolioWebsite/static/css/main.31d6cfe0.css",
-    "main.js": "/PortfolioWebsite/static/js/main.06eeef04.js",
-    "static/media/Resume.pdf": "/PortfolioWebsite/static/media/Resume.f6b3ce1857398b880224.pdf",
+    "main.js": "/PortfolioWebsite/static/js/main.7b60f678.js",
+    "static/media/about.png": "/PortfolioWebsite/static/media/about.2e1e8edc89be055aec46.png",
+    "static/media/contact.png": "/PortfolioWebsite/static/media/contact.6748438eb26af5286ead.png",
+    "static/media/profile.png": "/PortfolioWebsite/static/media/profile.a97bf2ba8bc9deb29e34.png",
+    "static/media/Kenal_Patel_Resume.pdf": "/PortfolioWebsite/static/media/Kenal_Patel_Resume.7bcd799bbe09cb2e33a5.pdf",
     "index.html": "/PortfolioWebsite/index.html",
-    "main.06eeef04.js.map": "/PortfolioWebsite/static/js/main.06eeef04.js.map"
+    "main.7b60f678.js.map": "/PortfolioWebsite/static/js/main.7b60f678.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.06eeef04.js"
+    "static/js/main.7b60f678.js"
   ]
 }
