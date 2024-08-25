@@ -20,10 +20,9 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(form.current);
     emailjs
       .sendForm(
-        "service_sn6ywxi",
+        "service_0l0pq5f",
         "template_gsa9hcq",
         form.current,
         "o0lEY11a9blT7qXIE"
@@ -71,7 +70,7 @@ const Contact = () => {
             mt={10}
             p={30}
           >
-            <Image src="/contact_img.png" />
+            <Image src={require("../../asset/images/contact.png")} />
           </Box>
 
           <Box d="flex" flexDir="column" alignItems="center" p={30}>

@@ -12,7 +12,7 @@ const Navbar = () => {
       {console.log(location.pathname)}
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark bg-gradient ">
         <div className="container">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/PortfolioWebsite">
             <Text fontSize="3xl" fontWeight="extrabold">
               Portfolio
             </Text>
@@ -38,7 +38,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/"
+                    to="/PortfolioWebsite"
                     style={{ color: "orange" }}
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
@@ -46,7 +46,7 @@ const Navbar = () => {
                     </Text>
                   </Link>
                 ) : (
-                  <Link className="nav-link active" aria-current="page" to="/">
+                  <Link className="nav-link active" aria-current="page" to="/PortfolioWebsite">
                     <Text px={2} fontSize="md" fontWeight="bold">
                       Home
                     </Text>
@@ -54,11 +54,11 @@ const Navbar = () => {
                 )}
               </li>
               <li className="nav-item">
-                {location.pathname === "/about" ? (
+                {location.pathname === "/PortfolioWebsite/about" ? (
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/about"
+                    to="/PortfolioWebsite/about"
                     style={{ color: "orange" }}
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
@@ -69,7 +69,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/about"
+                    to="/PortfolioWebsite/about"
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
                       About Me
@@ -82,7 +82,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/resume"
+                    to="/PortfolioWebsite/resume"
                     style={{ color: "orange" }}
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
@@ -93,7 +93,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/resume"
+                    to="/PortfolioWebsite/resume"
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
                       Resume
@@ -106,7 +106,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/contact"
+                    to="/PortfolioWebsite/contact"
                     style={{ color: "orange" }}
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
@@ -117,7 +117,7 @@ const Navbar = () => {
                   <Link
                     className="nav-link active"
                     aria-current="page"
-                    to="/contact"
+                    to="/PortfolioWebsite/contact"
                   >
                     <Text px={2} fontSize="md" fontWeight="bold">
                       Contact

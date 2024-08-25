@@ -20,48 +20,65 @@ export const Education_data = [
 export const Work_data = [
   {
     icon: "fa-solid fa-briefcase",
-    company: "Tata Concultancy Services",
-    profile: "Intern",
-    year: "01/2020 - 04/2020",
+    company: "Kyndryl",
+    profile: "Senior Associate II",
+    year: "12/2022 - 05/2024",
     description: [
       [
-        "Intern Developer",
-        "Created Rest APIs for Employee Management System.",
-        "Modules: Employee, HR, Admin",
-        "Key Skills: JavaScript, Node js, express js, MongoDB",
+        "SAMBOT Web Portal",
+        "Skills: JavaScript, NodeJS, ExpressJS, ReactJS, CloudantDB, JEST, Azure Deployment, RESTful API",
+        "Led the end-to-end development life cycle by spearheading the design, implementation, RESTful API integration, testing, and refinement of 12 components within the portal.",
+        "Designed and implemented user-friendly, responsive, and reusable front-end interfaces using ReactJS, enhancing user experience, code maintainability and development efficiency.",
+        "Implemented a multi-subscription management feature, enhancing user access and subscription handling.",
+        "Collaborated in back-end enhancements to onboard new clients on the portal by delivering the 100% tested requirements, ensuring 24/7 availability and scalability.",
+        "Tested 30+ backend functions thoroughly with JEST framework, ensuring optimal performance and reliability.",
+        "Optimized page load time by migrating 22 APIs to WebSockets, achieving a 25% improvement in performance.",
+      ],
+      [
+        "Validator Tool",
+        "Skills: JavaScript, NodeJS, ExpressJS, Power Automate, Power Apps, MongoDB, Mongoose, Azure Deployment",
+        "Effectively proved the viability of transitioning from SAMBOT tool to Validator tool through successful proof-of-concept implementations for 30% functionalities of SAMBOT.",
+        "Led backend implementation for JSON file generation for inter-tool connectivity and pre-filled excel template download functionalities.",
+        "Implemented advanced features using Power Automate and Power Apps, enhancing tool functionality and user experience.",
       ],
     ],
   },
   {
     icon: "fa-solid fa-briefcase",
     company: "Tata Concultancy Services",
-    profile: "Developer",
-    year: "10/2020 - Present",
+    profile: "System Engineer",
+    year: "10/2020 - 11/2022",
     description: [
       [
-        "Automation Development",
-        "Developed an Automation of several testing techniques.",
-        "Reduced the manual efforts and time of testing.",
-        "Key Skills: Python, OOP, file parsing, HTML, Autoval, INCA, excel report generation",
+        "Bench Management Portal",
+        "Skills: JavaScript, TypeScript, NodeJS, ExpressJS, ReactJS, SQL, MySQL, GraphQL",
+        "Spearheaded the Migration of Bench Management Portal from multi page Javascript UI to single page component based ReactJS UI  to improve loading speed and scalability by 35%.",
+        "Designed reusable components using Material UI and Chakra UI, ensuring consistency across applications.",
+        "Implemented GraphQL to optimize data fetching and improve query efficiency, resulting in faster data retrieval and a more responsive user interface.",
+        "Led a team to modernize backend systems, optimizing performance and scalability through microservices architecture deployed across distributed environments and contributed to over 20 enhancements and resolved 30+ bugs, utilizing the power of MERN stack.",
       ],
       [
-        "PDX-Parser Development",
-        "Developed the Parser which converts .txt file into .xml file",
-        "Automated the Data parsing from generated XML file",
-        "Key Skills: Python, OOP, file parsing",
+        "Vehicle Testing Automation",
+        "Skills: Python, OOP",
+        "Revolutionized testing efficiency, resulting in a 75% reduction in manual efforts and setting a new benchmark for project effectiveness utilizing object-oriented design principles to ensure code efficiency and maintainability.",
+        "Contributed to Agile and Scrum processes, resulting in 25% increase in team efficiency.",
+        "Mentored a team of junior developers, providing guidance and support in adopting best coding practices and enhancing team productivity.",
+        "Demonstrated ability to perform independent research to solve complex technical problems, ensuring innovative solutions.",
       ],
+    ],
+  },
+  {
+    icon: "fa-solid fa-briefcase",
+    company: "Tata Concultancy Services",
+    profile: "Software Developer Intern",
+    year: "01/2020 - 04/2020",
+    description: [
       [
-        "Library Development",
-        "Worked on python based library creation to reduce the efforts of Automation developer.",
-        "Library was based on Automotive domain work like applying brakes, accelerating vehicle, start vehicle, stop vehicle, etc.",
-        "Key Skills: Python, OOP, Autoval, INCA",
-      ],
-      [
-        "Web Development",
-        "Worked in Designing the structure of internal website",
-        "Defined the required APIs",
-        "Created certain backend APIs",
-        "Key Skills: Node js, Express js, MongoDB, Authentication",
+        "Employee Management System",
+        "Skills: JavaScript, Node.js, Express.js, MongoDB and Mongoose",
+        "Took ownership of Database design and API development, enhancing 25+ backend functionalities of the Employee module under mentor supervision.",
+        "Implemented authentication and authorization features to ensure secure user access.",
+        "Demonstrated strong communication skills and leveraged expertise in modern JavaScript frameworks to deliver a seamless and efficient solution.",
       ],
     ],
   },
@@ -70,15 +87,16 @@ export const Work_data = [
 export const Project_data = [
   {
     icon: "fa-solid fa-store",
-    name: "Ecommerce Application",
+    name: "Ecommerce Web Application",
     key_skills:
       "Html, Css, Reactjs, Chakra UI, Bootstrap, Expressjs, Nodejs, MongoDB, MERN stack, React-Redux",
     description: [
-      "This is a realtime fullstack Ecommerce application",
-      "Features: authentication, cart, payment and admin rights",
-      "RestAPIs created to perform CRUD operations on chat application Chat",
+      "Developed a scalable e-commerce platform with robust infrastructure.",
+      "Implemented secure RESTful APIs for seamless data transactions.",
+      "Integrated advanced user authentication and role-based access control.",
+      "Emphasized system architecture and best coding practices.",
     ],
-    website: "https://mern-ecomm-shop.herokuapp.com/",
+    website: "https://github.com/kenal99/MERN_Ecommerce",
   },
   {
     icon: "fa-brands fa-rocketchat",
@@ -86,11 +104,11 @@ export const Project_data = [
     key_skills:
       "Html, Css, Reactjs, Chakra UI, Expressjs, Nodejs, MongoDB, MERN stack, Context, Socket.io",
     description: [
-      "This is a fullstack Chat application which consists of realtime individial and group chatting options",
-      "RestAPIs created to perform CRUD operations on chat application Chat",
-      "Application consist of Authentication and real-time chatting functionalities",
+      "Developed a high-performance real-time chat application.",
+      "Utilized Socket.io for reliable, responsive messaging.",
+      "Implemented advanced authentication mechanisms for secure user interaction.",
     ],
-    website: "https://mern-bubble-chat.herokuapp.com/",
+    website: "https://github.com/kenal99/MERN_Chat_App",
   },
   {
     icon: "fa-solid fa-user",
@@ -100,28 +118,19 @@ export const Project_data = [
       "This is a React based portfolio web application",
       "Features: Download Resume, View Resume, Contact page",
     ],
-    website: "https://kenal-portfolio.herokuapp.com/",
+    website: "https://github.com/kenal99/PortfolioWebsite",
   },
   {
     icon: "fa-solid fa-newspaper",
     name: "Voice Based News Application",
     key_skills: "Html, Css, Reactjs, Chakra UI, Bootstrap, Alan AI",
     description: [
-      "Using this web application user can read latest news, News by categories, News by certain terms and News by sources with voice assistant",
-      "News API is used to fetch the information of the news",
-      "Alan AI features are used for Adding voice based functionalities",
+      "Designed a voice-activated news platform with a focus on scalability.",
+      "Integrated ALAN AI for advanced voice command functionality.",
+      "Enhanced user experience by incorporating real-time news updates.",
+      "Prioritized a user-friendly interface with responsive design.",
     ],
-    website: "https://news-voice-ai-webapp.herokuapp.com/",
-  },
-  {
-    icon: "fa-solid fa-book-open-reader",
-    name: "Word Dictionary",
-    key_skills: "Html, Css, Reactjs, Material UI",
-    description: [
-      "This app displays meaning and examples of entered text",
-      "Used meanings API to fetch all the meanings",
-    ],
-    website: "https://react-word-dictionary.herokuapp.com/",
+    website: "https://github.com/kenal99/Chat_Voice_AI_WebApp",
   },
   {
     icon: "fa-solid fa-face-smile",
@@ -157,43 +166,19 @@ export const Project_data = [
 
 export const Skills_data = [
   {
+    skill: "JavaScript",
+  },
+  {
+    skill: "Python",
+  },
+  {
     skill: "HTML",
   },
   {
     skill: "CSS",
   },
   {
-    skill: "Bootstrap",
-  },
-  {
-    skill: "Chakra UI",
-  },
-  {
-    skill: "Material UI",
-  },
-  {
-    skill: "JavaScript",
-  },
-  {
-    skill: "JQuery",
-  },
-  {
-    skill: "React js",
-  },
-  {
-    skill: "Redux",
-  },
-  {
-    skill: "Express js",
-  },
-  {
-    skill: "Node js",
-  },
-  {
-    skill: "Python",
-  },
-  {
-    skill: "Flask",
+    skill: "TypeScript",
   },
   {
     skill: "Java",
@@ -205,6 +190,78 @@ export const Skills_data = [
     skill: "MongoDB",
   },
   {
-    skill: "SQL",
+    skill: "CloudantDB",
+  },
+  {
+    skill: "MySQL",
+  },
+  {
+    skill: "NodeJS",
+  },
+  {
+    skill: "ExpressJS",
+  },
+  {
+    skill: "Django",
+  },
+  {
+    skill: "Flask",
+  },
+  {
+    skill: "ReactJS",
+  },
+  {
+    skill: "Redux",
+  },
+  {
+    skill: "Power Automate",
+  },
+  {
+    skill: "Power Apps",
+  },
+  {
+    skill: "JQuery",
+  },
+  {
+    skill: "Material UI",
+  },
+  {
+    skill: "Bootstrap",
+  },
+  {
+    skill: "Chakra UI",
+  },
+  {
+    skill: "NextJS",
+  },
+  {
+    skill: "JEST",
+  },
+  {
+    skill: "Git/Github",
+  },
+  {
+    skill: "Bitbucket",
+  },
+  {
+    skill: "Postman",
+  },
+  {
+    skill: "Visual Studio Code",
+  },
+  {
+    skill: "PyCharm",
+  },
+  {
+    skill: "Google Colab",
+  },
+  {
+    skill: "REST API",
+  },
+  {
+    skill: "GraphQL",
+  },
+  {
+    skill: "JSON",
   },
 ];

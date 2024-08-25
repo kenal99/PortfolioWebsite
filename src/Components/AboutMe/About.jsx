@@ -40,30 +40,41 @@ const About = () => {
             mb={10}
             p={30}
           >
-            <Image src="/About_img.png" />
+            <Image src={require("../../asset/images/about.png")} />
           </Box>
 
           <Box d="flex" flexDir="column" p={30}>
             <Text textAlign="justify" alignItems="center" fontSize="lg">
-              Full stack web developer with background knowledge of MERN stack
-              along with a skill of building applications with utmost
-              efficiency. Willing to be an asset for an organization.
-            </Text>
-            <Text fontSize="lg" mt={10}>
-              Here are a Few Highlights:
+              Hi, I’m Kenal Patel, a Full Stack Developer, passionate about
+              transforming ideas into impactful web experiences. With over 4
+              years of experience, I specialize in creating dynamic, scalable
+              solutions using cutting-edge technologies like React.js and
+              Node.js. I specialize in:
             </Text>
             <ul>
               <li>
-                <Text fontSize="lg">Full Stack web development</Text>
+                <Text fontSize="lg">
+                  <b>Innovative Solutions:</b> Creative problem-solving for
+                  complex challenges.
+                </Text>
               </li>
               <li>
-                <Text fontSize="lg">Interactive Front End Building </Text>
+                <Text fontSize="lg">
+                  <b>User-Centric Design:</b> Crafting intuitive and engaging
+                  user interfaces.
+                </Text>
               </li>
               <li>
-                <Text fontSize="lg">REST API</Text>
+                <Text fontSize="lg">
+                  <b>Performance Optimization:</b> Ensuring fast and efficient
+                  applications.
+                </Text>
               </li>
               <li>
-                <Text fontSize="lg">Managing database</Text>
+                <Text fontSize="lg">
+                  <b>Continuous Learning:</b> Staying ahead of trends and
+                  embrace new technologies.
+                </Text>
               </li>
             </ul>
 
@@ -71,13 +82,13 @@ const About = () => {
               <Button
                 colorScheme="orange"
                 variant="solid"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/PortfolioWebsite/contact")}
               >
                 Contact Me
               </Button>
               <a
-                href={require("../../asset/Resume.pdf")}
-                download="Kenal_Butani_Resume"
+                href={require("../../asset/Kenal_Patel_Resume.pdf")}
+                download="Kenal_Patel_Resume"
               >
                 <Button colorScheme="orange" variant="outline">
                   Get Resume

@@ -70,13 +70,13 @@ const Home = () => {
               <Button
                 colorScheme="orange"
                 variant="solid"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/PortfolioWebsite/contact")}
               >
                 Contact Me
               </Button>
               <a
-                href={require("../../asset/Resume.pdf")}
-                download="Kenal_Butani_Resume"
+                href={require("../../asset/Kenal_Patel_Resume.pdf")}
+                download="Kenal_Patel_Resume"
               >
                 <Button colorScheme="orange" variant="outline">
                   Get Resume
@@ -91,7 +91,7 @@ const Home = () => {
             boxSize={{ base: "sm", md: "sm", lg: "lg" }}
             mx="auto"
           >
-            <Image src="/profile_img2.png" />
+            <Image src={require("../../asset/images/profile.png")} />
           </Box>
         </SimpleGrid>
       </Box>
