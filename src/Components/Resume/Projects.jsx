@@ -39,9 +39,12 @@ const Projects = () => {
                 {data.description.map((desp) => {
                   return (
                     <ListItem>
-                      <Text fontWeight="medium" fontSize="md" my={1}>
-                        {desp}
-                      </Text>
+                      <Text
+                        fontWeight="medium"
+                        fontSize="md"
+                        my={1}
+                        dangerouslySetInnerHTML={{ __html: desp }}
+                      ></Text>
                     </ListItem>
                   );
                 })}

@@ -49,7 +49,11 @@ const Work = () => {
 
                       <UnorderedList>
                         {desp.slice(1, desp.length + 1).map((data) => {
-                          return <ListItem>{data}</ListItem>;
+                          return (
+                            <ListItem
+                              dangerouslySetInnerHTML={{ __html: data }}
+                            ></ListItem>
+                          );
                         })}
                       </UnorderedList>
                     </>
